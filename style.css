@@ -1,0 +1,273 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  border: none;
+}
+
+/* common css */
+.center {
+  text-align: center;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  justify-content: space-around;
+}
+
+header ul {
+  display: flex;
+  list-style: none;
+  gap: 1rem;
+}
+
+.web-icon {
+  display: flex;
+  align-items: center;
+}
+
+.web-icon span {
+  font-size: 25px;
+}
+
+.header-content {
+  padding-top: 20px;
+  background-color: #541554;
+  color: white;
+  min-height: 95vh;
+}
+
+.header-right {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+.sign-in-btn {
+  font-weight: 700;
+  padding: 10px;
+  cursor: pointer;
+}
+.sign-in-btn:hover {
+  text-decoration: underline;
+}
+.font-yellow {
+  color: #ecb22e !important;
+}
+
+.talk-to-sale {
+  font-weight: 700;
+  padding: 10px;
+  border: 2px solid white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.try-for-free {
+  font-weight: 700;
+  padding: 10px;
+  cursor: pointer;
+}
+
+video {
+  max-width: 700px;
+}
+
+.home-content {
+  display: flex;
+  /* flex-wrap: wrap; */
+}
+
+.home-content-left {
+  margin-left: 20px;
+  padding: 20px;
+  /* width: 50%; */
+  line-height: 1.5;
+}
+.home-content-left h1 {
+  font-size: 3rem;
+}
+.signup-btns {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.signup-email {
+  height: 50px;
+  min-width: 300px;
+  padding: 10px;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 1.2857;
+  letter-spacing: 0.8px;
+}
+
+.signup-google {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  height: 50px;
+  min-width: 300px;
+  padding: 5px;
+  background-color: #4285f4;
+  font-weight: 700;
+  line-height: 1.2857;
+  letter-spacing: 0.8px;
+  color: white;
+}
+
+.home-content-right {
+  /* width: fit-content; */
+}
+
+.trust-by-companay {
+  background-color: #f4ede4;
+}
+.trust-by-companay .center div {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.learn-more {
+  color: #1264a3;
+}
+
+.features-content {
+  margin: 50px 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.features-content div {
+  /* padding: 50px; */
+  font-size: 20px;
+  width: 40%;
+  margin: 0px 40px 0px 40px;
+}
+
+.features-content video {
+  height: 320px;
+}
+
+.service-div1 {
+  text-align: center;
+  font-size: 18px;
+}
+.service-button-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+.service-button-div span {
+  padding: 15px;
+  background-color: #fff;
+  color: #611f69;
+  fill: #611f69;
+  box-shadow: inset 0 0 0 1px #611f69;
+}
+.service-button-div span:nth-child(1) {
+  background-color: #541554;
+  color: white;
+}
+
+.rating-percentage {
+  width: 200px;
+}
+
+.rating-percentage p:nth-child(1) {
+  font-family: Slack-Larsseit, "Helvetica Neue", Helvetica, "Segoe UI", Tahoma,
+    Arial, sans-serif;
+  font-weight: 700;
+  line-height: 1;
+  letter-spacing: normal;
+  font-size: 3rem;
+  color: #000;
+  white-space: nowrap;
+  display: inline-block;
+  margin-bottom: 0.25rem;
+}
+
+.rating-percentage p:nth-child(2) {
+  text-wrap: wrap;
+}
+.rating {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 100px;
+  margin-top: 3rem;
+}
+
+.contact {
+  /* width: 100%; */
+  height: 300px;
+  text-align: center;
+  margin-top: 50px;
+  background-color: #4a154b;
+  color: white;
+  padding: 40px;
+  border-radius: 0px 0px 40% 40%;
+}
+
+.try-free {
+  background-color: #fff;
+  color: #611f69;
+  box-shadow: inset 0 0 0 1px #611f69;
+  margin: 6px 0px;
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 20px 70px;
+  /* width: 100%; */
+  font-size: 18px;
+  font-weight: 700px;
+}
+.talk-sales {
+  background-color: #611f69;
+  margin: 6px 0px;
+  border-radius: 5px;
+  cursor: pointer;
+  color: white;
+  box-shadow: inset 0 0 0 1px #ffffff;
+  padding: 20px 70px;
+  /* width: 100%; */
+}
+
+.try-free:hover {
+  box-shadow: inset 0 0 0 3px #ffffff;
+}
+.talk-sales:hover {
+  box-shadow: inset 0 0 0 2px #ffffff;
+}
+.social-media-icons {
+  display: flex;
+  gap: 15px;
+  font-size: 20px;
+}
+
+footer {
+  padding: 100px 100px 20px 100px;
+  border-top: 2px solid #e3dfe3;
+  margin-top: 30px;
+}
+
+footer ul {
+  display: flex;
+  gap: 20px;
+}
+
+footer ul li {
+  list-style: none;
+}
